@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 
-import Text from './components/Text';
+import Main from './components/Main'
+// import 'antd/dist/antd.css';
 
 class App extends Component {
   render() {
     return (
-      <Text/>
+      <Main/>
     );
   }
 }
