@@ -17,8 +17,9 @@ class Home extends Component {
                 <div style={{width: '100%', height: '100px', border: '1px solid red', textAlign: 'center', lineHeight: '50px'}}>
                     <p style={{margin: '0', color: '#f40'}}>1.react redux简单计算器应用！</p>
                     <span>value: {value}</span>
-                    <Button onClick={increase}>按钮 +</Button>
-                    <Button onClick={decrease}>按钮 -</Button>
+                    {' '}
+                    <Button onClick={increase}>+</Button>
+                    <Button onClick={decrease}>-</Button>
                 </div>
             </div>
          );

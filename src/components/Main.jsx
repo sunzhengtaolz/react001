@@ -38,12 +38,7 @@ class Main extends Component {
             }]
          }
     }
-
-    componentDidMount = (value) => {
-        console.log(value)
-        console.log(this.props);
-    }
-
+    
     render() { 
         let { menuIds } = this.state;
         return ( 

@@ -12,3 +12,4 @@
   npm install antd --save-dev
 5.安装redux
   npm install redux react-redux react-thunk --save
+6.使用fetch，并构造和使用了nodejs服务端，设置请求响应成功
