@@ -28,7 +28,7 @@ class Main extends Component {
             },{
                 menuId: 3,
                 path: '/product',
-                menuName: '产品',
+                menuName: '异步',
                 component: 'Product'
             },{
                 menuId: 4,

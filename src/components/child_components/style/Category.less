@@ -1,0 +1,35 @@
+.main {
+    width: 100%;
+    height: 200px;
+    div .item {
+        width: 200px;
+        height: 200px;
+        float: left;
+        border: 2px solid black;
+        margin: 20px 40px;
+        text-align: center;
+        line-height: 100px;
+        .pic {
+            width: 100%;
+            height: 132px;
+            div::before {
+                content: '';
+                width: 196px;
+                height: 132px;
+                display: block;
+                background: url('../../../../images/傍晚1.jpg') no-repeat;
+                background-size: 100%;
+            }
+        }
+        .btn {
+            width: 100%;
+            height: 30px;
+            text-align: center;
+            line-height: 30px;
+        }
+    }
+    div .item:hover {
+        border: 2px solid red;
+    }
+
+}

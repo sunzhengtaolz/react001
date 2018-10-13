@@ -91,7 +91,7 @@ class Product extends Component {
                 id: 1
             }
         }).then((data) => {
-            if(data.data != '') {
+            if(data.data !== '') {
                 this.setState({
                     sqlData: data.data.row
                 })

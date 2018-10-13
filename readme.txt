@@ -1,4 +1,7 @@
-#备注文档
+#备注文档 
+
+git add .
+git commit -am ""
 
 1.搭建脚手架
   npm create-react-app react001
@@ -17,3 +20,4 @@
   npm install axios
 8.安装mysql支持模块
   npm install mysql --save
+9.添加拖拽排序功能
